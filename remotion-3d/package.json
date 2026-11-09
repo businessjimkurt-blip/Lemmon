@@ -1,0 +1,29 @@
+{
+  "name": "remotion-3d",
+  "version": "1.0.0",
+  "private": true,
+  "description": "3D animated videos: Three.js (via @react-three/fiber) for 3D, Remotion for captions and rendering.",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render Main out/video.mp4",
+    "still": "remotion still Main out/still.png --frame=60",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@react-three/drei": "10.7.9",
+    "@react-three/fiber": "9.8.2",
+    "@remotion/captions": "4.0.541",
+    "@remotion/cli": "4.0.541",
+    "@remotion/three": "4.0.541",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.541",
+    "three": "0.187.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.187.0",
+    "typescript": "^7.0.2"
+  }
+}
